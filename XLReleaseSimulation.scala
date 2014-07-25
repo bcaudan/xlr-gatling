@@ -18,5 +18,5 @@ class XLReleaseSimulation extends Simulation {
       .disableFollowRedirect
   }
 
-  setUp(ReadScenario.scn.users(factor).ramp(factor).protocolConfig(httpConf))
+  setUp(WriteScenario.scn.users(factor).ramp(factor).protocolConfig(httpConf))
 }
