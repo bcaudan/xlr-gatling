@@ -23,3 +23,8 @@ Then, insert the benchmark data:
 You can launch the simulation with:
 
     $GATLING_HOME/bin/gatling.sh -s simulations.xlrelease.XLReleaseSimulation
+
+# Existing Reports
+
+You can find the existing reports in **users-files/reports/**, each directories represent a different benchmark.
+They composed of one **.apps file** from jvisualvm and the **index.html** from gatling.
