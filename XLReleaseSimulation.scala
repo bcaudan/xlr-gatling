@@ -8,22 +8,18 @@ import bootstrap._
 class XLReleaseSimulation extends Simulation {
   val factor: Int = 10
 
-	val httpConf = httpConfig
-		.baseURL("http://localhost:5516")
-		.acceptCharsetHeader("utf-8")
-    .authorizationHeader("Basic YWRtaW46YWRtaW4=")
-		.acceptHeader("application/json")
-		.disableFollowRedirect
+	val httpConf = {
+    val localhost: String = "http://localhost:5516"
+    val mathieu: String = "http://10.1.0.7:5516"
+    httpConfig
+      .baseURL(mathieu)
+      .acceptCharsetHeader("utf-8")
+      .authorizationHeader("Basic YWRtaW46YWRtaW4=")
+      .acceptHeader("application/json")
+      .disableFollowRedirect
+  }
 
 
-	val scn = scenario("Scenario name")
-    .repeat(factor) {
-      exec(
-        http("release")
-          .post("/releases/")
-          .header("Content-Type", "application/json")
-          .body("{\"title\":\"gatling\",\"description\":null,\"owner\":{\"username\":\"admin\",\"fullName\":\"XL Release Administrator\"},\"scheduledStartDate\":\"2014-07-25T07:00:00.000Z\",\"dueDate\":\"2014-07-25T15:00:00.000Z\",\"plannedDuration\":null,\"variables\":[],\"tags\":[\"tutorial\"],\"flag\":{\"status\":\"OK\"},\"abortOnFailure\":false,\"templateId\":\"ReleaseTemplate_configure\"}")
-          .check(status.is(200)))
-    }
-  setUp(scn.users(factor).ramp(factor).protocolConfig(httpConf))
+
+  setUp(CreateReleaseScenario.scn.users(factor).ramp(factor).protocolConfig(httpConf))
 }
