@@ -41,7 +41,7 @@ object WriteScenario {
       http("create release from template")
         .post("/releases")
         .header("Content-Type", "application/json")
-        .fileBody("WritingScenario_request_37.txt")
+        .fileBody("create_release.txt")
         .check(jsonPath("$.id").saveAs("releaseId")))
     .pause(17 milliseconds)
     .exec(
