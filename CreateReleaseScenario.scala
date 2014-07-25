@@ -9,7 +9,6 @@ object CreateReleaseScenario {
 
   val scn = scenario("Scenario name")
     .repeat(10) {
-
     exec(
       http("release")
         .post("/releases/")
