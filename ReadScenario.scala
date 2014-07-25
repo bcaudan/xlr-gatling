@@ -13,7 +13,7 @@ import bootstrap._
  */
 object ReadScenario {
 
-  val scn = scenario("Scenario Name")
+  val scn = scenario("Read Scenario")
     .exec(http("tasks list")
     .post("/tasks/search")
     .header("Content-Type", "application/json")
