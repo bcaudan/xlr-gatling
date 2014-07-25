@@ -16,3 +16,6 @@ Clone repository as:
 
 You need a XLR running instance on http://localhost:5516 with a fresh repository.
 
+You can launch the simulation with:
+
+    $GATLING_HOME/bin/gatling.sh -s simulations.xlrelease.XLReleaseSimulation
