@@ -6,7 +6,11 @@ import akka.util.duration._
 import bootstrap._
 
 class XLReleaseSimulation extends Simulation {
-  val factor: Int = 1
+
+  val totalUser:Int = 5000
+  val readPercentage = 70
+
+  val nbSecondToLoadUsers: Int = 10
 
 	val httpConf = {
     val localhost: String = "http://localhost:5516"
@@ -18,5 +22,9 @@ class XLReleaseSimulation extends Simulation {
       .disableFollowRedirect
   }
 
-  setUp(WriteScenario.scn.users(factor).ramp(factor).protocolConfig(httpConf))
+  private val readUser: Int = totalUser * readPercentage / 100
+  setUp(
+    ReadScenario.scn.users(readUser).ramp(nbSecondToLoadUsers).protocolConfig(httpConf),
+    WriteScenario.scn.users(totalUser - readUser).ramp(nbSecondToLoadUsers).protocolConfig(httpConf)
+  )
 }
