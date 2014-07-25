@@ -8,7 +8,7 @@ Download Gatling 1.5.6:
     http://gatling-tool.org/
 
 
-Clone repository as: 
+Replace user_files directory with this repository: 
 
     rm -rf $GATLING_HOME/user-files && git clone https://github.com/bcaudan/xlr-gatling $GATLING_HOME/user-files
 
