@@ -1,0 +1,29 @@
+name	nbRequest	nbRequestOK	nbRequestKO	minResponseTime	minResponseTimeOK	minResponseTimeKO	maxResponseTime	maxResponseTimeOK	maxResponseTimeKO	meanResponseTime	meanResponseTimeOK	meanResponseTimeKO	deviation	deviationOK	deviationKO	percentile1	percentile1OK	percentile1KO	percentile2	percentile2OK	percentile2KO	group1Name	group1Count	group1Percentage	group2Name	group2Count	group2Percentage	group3Name	group3Count	group3Percentage	group4Name	group4Count	group4Percentage	meanNumberOfRequestsPerSecond	meanNumberOfRequestsPerSecondOK	meanNumberOfRequestsPerSecondKO
+Global Information	1190	1190	0	0	0	-1	45930	45930	-1	7754	7754	-1	10316	10316	-1	30730	30730	-1	36870	36870	-1	t < 800 ms	545	45	800 ms < t < 1200 ms	18	1	t > 1200 ms	627	52	failed	0	0	7	7	-1
+check permission	30	30	0	0	0	-1	26310	26310	-1	11953	11953	-1	8160	8160	-1	25310	25310	-1	26310	26310	-1	t < 800 ms	5	16	800 ms < t < 1200 ms	0	0	t > 1200 ms	25	83	failed	0	0	0	0	-1
+complete task	30	30	0	4170	4170	-1	11890	11890	-1	7747	7747	-1	2219	2219	-1	11880	11880	-1	11890	11890	-1	t < 800 ms	0	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	30	100	failed	0	0	0	0	-1
+abort release	30	30	0	4470	4470	-1	13780	13780	-1	9275	9275	-1	2774	2774	-1	13760	13760	-1	13780	13780	-1	t < 800 ms	0	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	30	100	failed	0	0	0	0	-1
+get templates	30	30	0	160	160	-1	35760	35760	-1	6355	6355	-1	10404	10404	-1	27720	27720	-1	35760	35760	-1	t < 800 ms	22	73	800 ms < t < 1200 ms	0	0	t > 1200 ms	8	26	failed	0	0	0	0	-1
+refresh release	60	60	0	30	30	-1	9200	9200	-1	2546	2546	-1	2116	2116	-1	5670	5670	-1	7000	7000	-1	t < 800 ms	16	26	800 ms < t < 1200 ms	7	11	t > 1200 ms	37	61	failed	0	0	0	0	-1
+get comments of task	30	30	0	40	40	-1	710	710	-1	254	254	-1	198	198	-1	710	710	-1	710	710	-1	t < 800 ms	30	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+python script definition	70	70	0	0	0	-1	11570	11570	-1	1761	1761	-1	3948	3948	-1	11460	11460	-1	11510	11510	-1	t < 800 ms	60	85	800 ms < t < 1200 ms	0	0	t > 1200 ms	10	14	failed	0	0	0	0	-1
+get release	100	100	0	20	20	-1	29890	29890	-1	10604	10604	-1	10528	10528	-1	29720	29720	-1	29860	29860	-1	t < 800 ms	30	30	800 ms < t < 1200 ms	7	7	t > 1200 ms	63	63	failed	0	0	1	1	-1
+collect template variables	30	30	0	20	20	-1	18120	18120	-1	5486	5486	-1	5799	5799	-1	17830	17830	-1	18120	18120	-1	t < 800 ms	14	46	800 ms < t < 1200 ms	0	0	t > 1200 ms	16	53	failed	0	0	0	0	-1
+get settings	30	30	0	4580	4580	-1	35360	35360	-1	13524	13524	-1	8620	8620	-1	27330	27330	-1	35360	35360	-1	t < 800 ms	0	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	30	100	failed	0	0	0	0	-1
+get user assignated to a task	30	30	0	130	130	-1	4800	4800	-1	1016	1016	-1	1504	1504	-1	4720	4720	-1	4800	4800	-1	t < 800 ms	21	70	800 ms < t < 1200 ms	0	0	t > 1200 ms	9	30	failed	0	0	0	0	-1
+user names	70	70	0	10	10	-1	27490	27490	-1	3762	3762	-1	5772	5772	-1	17740	17740	-1	18500	18500	-1	t < 800 ms	45	64	800 ms < t < 1200 ms	0	0	t > 1200 ms	25	35	failed	0	0	0	0	-1
+start release	30	30	0	4890	4890	-1	10140	10140	-1	7216	7216	-1	1786	1786	-1	9970	9970	-1	10140	10140	-1	t < 800 ms	0	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	30	100	failed	0	0	0	0	-1
+assignable teams	70	70	0	10	10	-1	9170	9170	-1	349	349	-1	1076	1076	-1	530	530	-1	560	560	-1	t < 800 ms	69	98	800 ms < t < 1200 ms	0	0	t > 1200 ms	1	1	failed	0	0	0	0	-1
+create release from template	30	30	0	2750	2750	-1	40370	40370	-1	14762	14762	-1	11138	11138	-1	32240	32240	-1	40370	40370	-1	t < 800 ms	0	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	30	100	failed	0	0	0	0	-1
+get releases	60	60	0	4120	4120	-1	37170	37170	-1	19661	19661	-1	10469	10469	-1	36520	36520	-1	36880	36880	-1	t < 800 ms	0	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	60	100	failed	0	0	0	0	-1
+get python script defs	30	30	0	40	40	-1	17740	17740	-1	5078	5078	-1	7179	7179	-1	17720	17720	-1	17740	17740	-1	t < 800 ms	20	66	800 ms < t < 1200 ms	0	0	t > 1200 ms	10	33	failed	0	0	0	0	-1
+get configuration	30	30	0	10	10	-1	5540	5540	-1	1159	1159	-1	1956	1956	-1	5480	5480	-1	5540	5540	-1	t < 800 ms	22	73	800 ms < t < 1200 ms	0	0	t > 1200 ms	8	26	failed	0	0	0	0	-1
+refresh release after starting	30	30	0	30	30	-1	3310	3310	-1	1069	1069	-1	999	999	-1	3260	3260	-1	3310	3310	-1	t < 800 ms	15	50	800 ms < t < 1200 ms	4	13	t > 1200 ms	11	36	failed	0	0	0	0	-1
+releases list	70	70	0	7570	7570	-1	45930	45930	-1	27613	27613	-1	9913	9913	-1	36940	36940	-1	45860	45860	-1	t < 800 ms	0	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	70	100	failed	0	0	0	0	-1
+get user's fullNames	30	30	0	0	0	-1	26990	26990	-1	2711	2711	-1	8025	8025	-1	26900	26900	-1	26990	26990	-1	t < 800 ms	27	90	800 ms < t < 1200 ms	0	0	t > 1200 ms	3	10	failed	0	0	0	0	-1
+configurations	70	70	0	0	0	-1	26760	26760	-1	868	868	-1	4063	4063	-1	400	400	-1	18140	18140	-1	t < 800 ms	67	95	800 ms < t < 1200 ms	0	0	t > 1200 ms	3	4	failed	0	0	0	0	-1
+get full name	30	30	0	540	540	-1	5170	5170	-1	2074	2074	-1	1588	1588	-1	5170	5170	-1	5170	5170	-1	t < 800 ms	13	43	800 ms < t < 1200 ms	0	0	t > 1200 ms	17	56	failed	0	0	0	0	-1
+comments	70	70	0	20	20	-1	23740	23740	-1	646	646	-1	2785	2785	-1	520	520	-1	600	600	-1	t < 800 ms	69	98	800 ms < t < 1200 ms	0	0	t > 1200 ms	1	1	failed	0	0	0	0	-1
+get gate dependency of task	30	30	0	8750	8750	-1	14070	14070	-1	10251	10251	-1	1483	1483	-1	12050	12050	-1	14070	14070	-1	t < 800 ms	0	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	30	100	failed	0	0	0	0	-1
+tasks list	70	70	0	5050	5050	-1	34080	34080	-1	19808	19808	-1	9225	9225	-1	32850	32850	-1	33770	33770	-1	t < 800 ms	0	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	70	100	failed	0	0	0	0	-1
+

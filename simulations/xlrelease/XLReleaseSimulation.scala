@@ -7,7 +7,7 @@ import bootstrap._
 
 class XLReleaseSimulation extends Simulation {
 
-  val totalUser:Int = 5000
+  val totalUser:Int = 100
   val readPercentage = 70
 
   val nbSecondToLoadUsers: Int = 10
