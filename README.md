@@ -3,4 +3,4 @@ xlr-gatling
 
 Clone repository in 
 
-    $GATLING_HOME/user-files/simulations/xlrelease
+    $GATLING_HOME/user-files
