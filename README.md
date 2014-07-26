@@ -7,6 +7,9 @@ Download Gatling 1.5.6:
 
     http://gatling-tool.org/
 
+Check OS tuning requirements:
+
+    https://github.com/excilys/gatling/wiki/HTTP#os-tuning
 
 Replace user_files directory with this repository: 
 
